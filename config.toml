@@ -1,0 +1,49 @@
+baseURL = "https://cv.agnesepoikane.com/"
+languageCode = "en-us"
+title = "CV Agnese Poikane-Pucoka"
+theme = "pulp"
+
+[params]
+    author = "Agnese Poikane-Pucoka"
+    description = """ 
+    SOCIAL DATA SCIENTIST
+    """
+    publicationYear = "2019"
+    avatar = "avatar.png"
+
+
+[[menu.main]]
+    identifier = "linkedin"
+    pre = "<i class='fab fa-linkedin fa-lg' title='LinkedIn'></i>"
+    url = "https://www.linkedin.com/in/agnese-poikane-pucoka/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "github"
+    pre = "<i class='fab fa-github fa-lg' title='GitHub'></i>"
+    url = "https://github.com/puchokagnese"
+    weight = 20
+
+[[menu.main]]
+    identifier = "kaggle"
+    pre = "<i class='fab fa-kaggle fa-lg' title='Kaggle'></i>"
+    url = "https://www.kaggle.com/puchokagnese"
+    weight = 30
+
+[[menu.main]]
+    identifier = "instagram"
+    pre = "<i class='fab fa-instagram fa-lg' title='Instagram'></i>"
+    url = "https://www.instagram.com/poikaneagnese/"
+    weight = 40
+
+[[menu.main]]
+    identifier = "resume"
+    pre = "<i class='fas fa-file-download fa-lg' title='Download Resume as PDF'></i>"
+    url = "Resume_PoikanePucoka.pdf"
+    weight = 50
+
+#[[menu.main]]
+#    identifier = "blog"
+#    pre = "<i class='fa fa-book-open fa-lg'></i>"
+#    url = "https://agnesepoikane.com/"
+#    weight = 60
