@@ -6,7 +6,7 @@ theme = "pulp"
 [params]
     author = "Agnese Poikane-Pucoka"
     description = """ 
-    SOCIAL DATA SCIENTIST
+    DATA ANALYST
     """
     publicationYear = "2019"
     avatar = "avatar.png"
