@@ -8,4 +8,4 @@
 * меняем config файл, если это необходимо
 
 ### Загрузка сайта на сервер
-* подключится по FTP (FileZilla) для загрузки статичных файлов на сервер (Files ---> Other Locations)
+* подключится по FTP (FileZilla) для загрузки статичных файлов на сервер (Files ---> Other Locations ---> enter server address ---> folder cv.agnesepoikane.com ---> copy files from public folder)
