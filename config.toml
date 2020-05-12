@@ -6,7 +6,10 @@ theme = "pulp"
 [params]
     author = "Agnese Poikane-Pucoka"
     description = """ 
-    DATA ANALYST
+<b>DATA ANALYST &nbsp;&nbsp; | &nbsp;&nbsp; MINDSET COACH</b>
+<br></br>
+Interests: user behaviour analytics, crime data analysis, sociology of crime and deviance, cognitive biases and cognitive distortions, cognitive behavioural coaching 
+<br></br>
     """
     publicationYear = "2019"
     avatar = "avatar.png"
@@ -25,15 +28,16 @@ theme = "pulp"
     weight = 20
 
 [[menu.main]]
-    identifier = "linkedin"
-    pre = "<i class='fab fa-linkedin fa-lg' title='LinkedIn'></i>"
-    url = "https://www.linkedin.com/in/agnese-poikane-pucoka/"
+    identifier = "data"
+    #name = "Data Blog" #If display text link, cancel comment out
+    pre = "<i class='fas fa-signal' title='Blog about Data Analysis'></i>"
+    #url = "/data"
     weight = 30
 
 [[menu.main]]
-    identifier = "facebook"
-    pre = "<i class='fab fa-facebook-square fa-lg' title='Facebook'></i>"
-    url = "https://www.facebook.com/agnese.poikane"
+    identifier = "linkedin"
+    pre = "<i class='fab fa-linkedin fa-lg' title='LinkedIn'></i>"
+    url = "https://www.linkedin.com/in/agnese-poikane-pucoka/"
     weight = 40
 
 [[menu.main]]
@@ -43,13 +47,9 @@ theme = "pulp"
     weight = 50
 
 [[menu.main]]
-    identifier = "resume"
-    pre = "<i class='fas fa-file-download fa-lg' title='Download Resume as PDF'></i>"
-    url = "PoikanePucoka_resume.pdf"
+    identifier = "coaching"
+    #name = "Blog" #If display text link, cancel comment out
+    pre = "<i class='fa fa-user-plus' title='Coaching'></i>"
+    #url = "/coaching"
     weight = 60
 
-#[[menu.main]]
-#    identifier = "blog"
-#    pre = "<i class='fa fa-book-open fa-lg'></i>"
-#    url = "https://agnesepoikane.com/"
-#    weight = 60
