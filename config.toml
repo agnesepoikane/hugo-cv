@@ -8,7 +8,7 @@ theme = "pulp"
     description = """ 
 <b>DATA ANALYST &nbsp;&nbsp; | &nbsp;&nbsp; MINDSET COACH</b>
 <br></br>
-Interests: user behaviour analytics, crime data analysis, sociology of crime and deviance, cognitive biases and cognitive distortions, cognitive behavioural coaching 
+Interests: user behaviour analytics, crime data analysis, data visualization, sociology of crime and deviance, cognitive biases and mindset 
 <br></br>
     """
     publicationYear = "2019"
@@ -16,22 +16,22 @@ Interests: user behaviour analytics, crime data analysis, sociology of crime and
 
 
 [[menu.main]]
+    identifier = "data"
+    #name = "Data Blog" #If display text link, cancel comment out
+    pre = "<i class='fas fa-signal' title='Data Analysis'></i>"
+    #url = "/data"
+    weight = 10
+
+[[menu.main]]
     identifier = "github"
     pre = "<i class='fab fa-github fa-lg' title='GitHub'></i>"
     url = "https://github.com/puchokagnese"
-    weight = 10
+    weight = 20
 
 [[menu.main]]
     identifier = "kaggle"
     pre = "<i class='fab fa-kaggle fa-lg' title='Kaggle'></i>"
     url = "https://www.kaggle.com/puchokagnese"
-    weight = 20
-
-[[menu.main]]
-    identifier = "data"
-    #name = "Data Blog" #If display text link, cancel comment out
-    pre = "<i class='fas fa-signal' title='Blog about Data Analysis'></i>"
-    #url = "/data"
     weight = 30
 
 [[menu.main]]
@@ -47,9 +47,15 @@ Interests: user behaviour analytics, crime data analysis, sociology of crime and
     weight = 50
 
 [[menu.main]]
+    identifier = "goodreads"
+    pre = "<i class='fab fa-goodreads-g' title='Goodreads'></i>"
+    url = "https://www.goodreads.com/user/show/22833723-agnese"
+    weight = 60
+
+[[menu.main]]
     identifier = "coaching"
     #name = "Blog" #If display text link, cancel comment out
-    pre = "<i class='fa fa-user-plus' title='Coaching'></i>"
+    pre = "<i class='fa fa-heart' title='Coaching'></i>"
     #url = "/coaching"
-    weight = 60
+    weight = 70
 
