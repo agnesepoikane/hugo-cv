@@ -6,9 +6,9 @@ theme = "pulp"
 [params]
     author = "Agnese Poikane-Pucoka"
     description = """ 
-<b>DATA ANALYST &nbsp;&nbsp; | &nbsp;&nbsp; MINDSET COACH</b>
+<b>Data & Research Analyst | Coach | Consultant | Mentor </b>
 <br></br>
-Interests: behavioral analytics, UX research, crime data visualization, cognitive biases and growth mindset 
+Keywords: Public Safety & Criminal Justice, Crime Data Visualization, Deviant Behavior & Thinking, Social Development, Social Innovation, Philanthropy & Social Entrepreneurship, Customer Experience, Behavioral Analytics, Cognitive Biases, Growth Mindset
 <br></br>
     """
     publicationYear = "2019"
@@ -16,22 +16,21 @@ Interests: behavioral analytics, UX research, crime data visualization, cognitiv
 
 
 [[menu.main]]
-    identifier = "data analysis"
-    #name = "Data Blog" #If display text link, cancel comment out
-    pre = "<i class='fas fa-signal' title='Data Analysis'></i>"
-    #url = "/data"
-    weight = 10
-
-[[menu.main]]
     identifier = "github"
     pre = "<i class='fab fa-github fa-lg' title='GitHub'></i>"
     url = "https://github.com/puchokagnese"
-    weight = 20
+    weight = 10
 
 [[menu.main]]
     identifier = "linkedin"
     pre = "<i class='fab fa-linkedin fa-lg' title='LinkedIn'></i>"
     url = "https://www.linkedin.com/in/agnese-poikane-pucoka/"
+    weight = 20
+
+[[menu.main]]
+    identifier = "facebook"
+    pre = "<i class='fab fa-facebook-f' title='Facebook'></i>"
+    url = "https://www.facebook.com/agnese.poikane"
     weight = 30
 
 [[menu.main]]
@@ -41,9 +40,11 @@ Interests: behavioral analytics, UX research, crime data visualization, cognitiv
     weight = 40
 
 [[menu.main]]
-    identifier = "mindset"
-    #name = "Blog" #If display text link, cancel comment out
-    pre = "<i class='fa fa-brain' title='Mindset'></i>"
-    #url = "/coaching"
+    identifier = "blog"
+    #name = "Data Blog" #If display text link, cancel comment out
+    pre = "<i class='fas fa-book-open' title='Blog'></i>"
+    #url = "/blog"
     weight = 50
+
+
 
